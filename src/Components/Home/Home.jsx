@@ -80,7 +80,7 @@ const Home = ({ scrollRef }) => {
           </h1>
           <div className={styles.btn}>
             <a
-              href="https://drive.google.com/file/d/10Oyk6Yc5Ggh-YohZ-R34HkGF-UjwiGcU/view?usp=sharing" // Resume
+              href="https://drive.google.com/file/d/1ZJBon1KA7QRYo8u-ma7kewzcn_RUj7wG/view?usp=sharing" // Resume
               target="blank"
             >
               <Button
@@ -102,7 +102,7 @@ const Home = ({ scrollRef }) => {
           }}
           className={styles.profileImage}
         >
-          <img src="https://github.com/shravanpm/masaiUnit-4/blob/main/express-mvc/photo.jpg?raw=true" />
+          <img src="https://github.com/shravanpm/portfolio/blob/master/src/assets/profilePic.jpg?raw=true" />
         </div>
       </div>
 
