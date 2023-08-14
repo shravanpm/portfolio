@@ -64,7 +64,7 @@ const Contact = () => {
           <br />
 
           <i className="far fa-envelope"></i>
-          <h3>shravan.pm@yahoo.com</h3>
+          <h3>mailsofshravan@gmail.com</h3>
           <i className="fas fa-phone-alt" />
           <h3>+91 9747442344</h3>
         </div>

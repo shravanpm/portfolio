@@ -11,6 +11,7 @@ import About from "../About/About";
 import { projects } from "../../Utils/Projects";
 import Contact from "../Contact/Contact";
 import { ThemeContext } from "../../ContextProvider/ThemeContext";
+import Education from "../Education/Education";
 import Experiences from "../Experiences/Experiences";
 
 const Home = ({ scrollRef }) => {
@@ -72,15 +73,15 @@ const Home = ({ scrollRef }) => {
             </div>
           </h1>
           <h1>
-            Aspiring full-stack web developer and specialized in MERN stack.
-            Passionate about writing clean, elegant, and efficient code using
-            HTML, JavaScript, CSS, nodeJS.
+            Full-stack web developer and specialized in MERN stack. Passionate
+            about writing clean, elegant, and efficient code using HTML,
+            JavaScript, CSS, nodeJS.
             {/* MERN-Stack Web Developer */}
             {/* and make a significant contribution to its innovations. */}
           </h1>
           <div className={styles.btn}>
             <a
-              href="https://drive.google.com/file/d/1ZJBon1KA7QRYo8u-ma7kewzcn_RUj7wG/view?usp=sharing" // Resume
+              href="https://drive.google.com/file/d/18-Mq8zcPGJUdkaZJvutqwnfUsF6bzgUs/view?usp=sharing" // Resume
               target="blank"
             >
               <Button
@@ -121,7 +122,7 @@ const Home = ({ scrollRef }) => {
       </div>
 
       <div
-        id="education"
+        id="experience"
         className={styles.experience}
         style={{
           background: `${newTheme.highlightBackground}`,
@@ -135,6 +136,24 @@ const Home = ({ scrollRef }) => {
           style={{ color: `${newTheme.para}` }}
         >
           <Experiences />
+        </div>
+      </div>
+
+      <div
+        id="education"
+        className={styles.experience}
+        style={{
+          background: `${newTheme.highlightBackground}`,
+        }}
+      >
+        <div
+          data-aos="fade-right"
+          data-aos-offset="150"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="700"
+          style={{ color: `${newTheme.para}` }}
+        >
+          <Education />
         </div>
       </div>
 

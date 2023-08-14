@@ -13,7 +13,7 @@ export const projects = [
     title: "Clone of Strawberrynet.com",
     des: "Strawberrynet is a one-stop beauty destination with a diverse selection of premium brands in fragrance, make-up, skin care, hair care & derma cosmetics.",
     demo: "",
-    live: "vigilant-lamarr-61e6fa.netlify.app/",
+    live: "https://strawberrynet.netlify.app/",
     gitHub: "https://github.com/shravanpm/StrawberrynetClone",
     technologies: ["HTML", "CSS", "JavaScript", "MongoDB"],
   },

@@ -5,71 +5,37 @@ import styles from "./Experiences.module.css";
 const Experiences = () => {
   const { newTheme } = useContext(ThemeContext);
   return (
-    <div className={styles.experiences}>
+    <div className={styles.Experiences}>
       <h1 style={{ color: `${newTheme.title}` }} className={styles.heading}>
-        Education
+        Experiences
       </h1>
       <div className={styles.borderBottom} />
 
       <div className={styles.container}>
         <div className={styles.position}>
-          Masai School | Full Stack Web Developer (MERN){" "}
+          actyv.ai | Full Stack Web Developer (MERN){" "}
           <a href=""> Full Stack Development (MERN)</a>
         </div>
-        <div className={styles.date}>November 2021 - August 2022</div>
-        {/* <div className={styles.date}>October 2021 - April 2022</div>
-				<fieldset className={styles.responsibilites}>
-					<legend>
-						<h3> Roles & responsibilites </h3>
-					</legend>
-					<ul>
-						<li>
-							My role was to  Monitoring of boiler operation & Performing regular maintenance of boiler. 
-                           </li>
-						<li>
-						Monitoring Ammonia Refrigeration system as well as cold chain unit. 
-						</li>
-						<li>
+        <div className={styles.date}>November 2022 - Present</div>
+        <fieldset className={styles.responsibilities}>
+          <legend>
+            <h3> Roles & responsibilities </h3>
+          </legend>
+          <ul>
+            <li>Implementing paylater module in actyv.ai.</li>
+            <li>Integration of bank with actyv platform.</li>
+            {/* <li>
 						Responding to breakdown ,malfunctions and analysis
 							</li>
 							<li>
 							Etp operation and monitoring 
 
-							</li>
-					
-					</ul>
-				</fieldset> */}
+							</li> */}
+          </ul>
+        </fieldset>
       </div>
 
       <br />
-
-      <div className={styles.container}>
-        <div className={styles.position}>
-          KMCT CE College (Calicut) | Graduation <br />
-          <a href="/"> Electronics And Communication Engineering </a>
-        </div>
-        <div className={styles.date}>August 2012 - June 2016</div>
-        {/* <fieldset className={styles.responsibilites}>
-					<legend>
-						<h3> Roles & responsibilites </h3>
-					</legend>
-					<ul>
-						<li>
-						Monitoring of utility operations 
-
-							
-						</li>
-						<li>Carrying out of Predictive, Preventive maintenance & Breakdown maintenance, planning & execution. 
-							
-						</li>
-						<li>
-						Work as team member of the shift maintenance group & involve in the problem solving activities in plant.
-
-						</li>
-					
-					</ul>
-				</fieldset> */}
-      </div>
     </div>
   );
 };
