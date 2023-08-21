@@ -9,7 +9,7 @@ export const projects = [
     technologies: ["React", "Redux", "Chakra UI"],
   },
   {
-    img: "https://camo.githubusercontent.com/b300e536c094dd4abfa407f3ba195261eeff78273e09b07ce970570085d9c6cf/68747470733a2f2f7777772e6c696e6b706963747572652e636f6d2f712f6c616e64696e67706167655f312e706e67",
+    img: "https://raw.githubusercontent.com/shravanpm/StrawberrynetClone/main/views/image/Screenshot_20230821_192810.png",
     title: "Clone of Strawberrynet.com",
     des: "Strawberrynet is a one-stop beauty destination with a diverse selection of premium brands in fragrance, make-up, skin care, hair care & derma cosmetics.",
     demo: "",
