@@ -81,7 +81,7 @@ body::after {
   justify-content: center;
   align-items: flex-start;
   border-bottom: 7px solid #9802be;
-  /* margin-bottom: 2em; */
+  margin-bottom: 2em;
   transform: rotate(-2deg);
   transition: 0.5s;
   position: fixed;
@@ -130,6 +130,7 @@ body::after {
 @media screen and (max-width: 1300px) {
   .profile {
     padding-right: 5vw;
+    height: 100vh;
   }
   .intro {
     width: 50%;
@@ -139,13 +140,29 @@ body::after {
     margin-left: 30px;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1050px) {
+  .profile {
+    padding-right: 5vw;
+  }
+  .intro {
+    width: 48%;
+    /* padding-left: 5vw; */
+  }
+  .profileImage {
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 920px) {
   .profileImage {
     width: 300px;
     height: 300px;
+    margin-left: 10em;
   }
   .profileImage img {
     width: 300px;
+  }
+  .intro {
+    max-width: 50%;
   }
 }
 @media screen and (max-width: 830px) {
@@ -204,6 +221,46 @@ body::after {
   }
 }
 
+@media screen and (max-width: 420px) {
+  .profileImage {
+    width: 40vw;
+    height: 40vw;
+    top: 70px;
+    right: 50%;
+    transform: translateX(50%) !important;
+  }
+  .profileImage img {
+    width: 40vw;
+  }
+  .intro {
+    margin-top: 0vh;
+    font-size: 0.7em;
+  }
+  .name {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .profileImage {
+    width: 40vw;
+    height: 40vw;
+    top: 70px;
+    right: 50%;
+    transform: translateX(50%) !important;
+  }
+  .profileImage img {
+    width: 40vw;
+  }
+  .intro {
+    margin-top: 20vh;
+    font-size: 0.7em;
+  }
+  .name {
+    font-size: 1.5em;
+  }
+}
+
 @media screen and (max-width: 360px) {
   .profileImage {
     width: 40vw;
@@ -216,7 +273,7 @@ body::after {
     width: 40vw;
   }
   .intro {
-    margin-top: 30vh;
+    margin-top: 10vh;
     font-size: 0.7em;
   }
   .name {
