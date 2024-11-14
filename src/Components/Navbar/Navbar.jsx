@@ -60,7 +60,7 @@ const Navbar = () => {
 
         <div style={{ color: `${newTheme.title}` }} className={styles.links}>
           <a
-            href="https://drive.google.com/file/d/18-Mq8zcPGJUdkaZJvutqwnfUsF6bzgUs/view?usp=sharing" //Resume
+            href="https://drive.google.com/file/d/1Ylw6TlEbE237SAi7scLSucVY1HaJ7aBm/view?usp=sharing" //Resume
             target="blank"
           >
             Resume
